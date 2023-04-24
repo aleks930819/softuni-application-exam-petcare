@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "test": "mocha tests",
-    "start": "http-server -a localhost -p 3001 -P http://localhost:3001? -c-1"
+    "start": "http-server -a localhost -p 3002 -P http://localhost:3002? -c-1"
   },
   "author": "",
   "license": "ISC",

@@ -21,7 +21,9 @@ function navTemplate(user) {
         <li><a href="/catalog">Dashboard</a></li>
         ${user
           ? html`<li><a href="/create">Create Postcard</a></li>
-              <li><a href="#" @click=${logoutHandler}>Logout</a></li>`
+              <li>
+                <a href="javascript:void(0)" @click=${logoutHandler}>Logout</a>
+              </li>`
           : html`<li><a href="/login">Login</a></li>
               <li><a href="/register">Register</a></li>`}
       </ul>
